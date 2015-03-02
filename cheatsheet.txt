@@ -1,0 +1,18 @@
+Create a Empty Repository from Console
+
+How to Clone:
+=============
+Go to gitbash
+$git clone https://github.com/mithunsatyakumar/Coursera_R_Programming
+
+How to push newly added files:
+==============================
+From gitbash, go to the corresponding folder...
+
+$git add .
+
+$git commit -m "message/comments"
+/* This will commit the changes in the staging layer, from here you will be needing to push in to master*/
+
+$git push -u origin master /*for first time push*/
+$git push origin master /*Next time onwards in the same session*/
